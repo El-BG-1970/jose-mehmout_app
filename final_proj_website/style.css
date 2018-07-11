@@ -1,0 +1,197 @@
+ul {
+    background-color: #000000;
+    max-height: 99%;
+    max-width: 99%;
+}
+
+.logo {
+    float: left;
+    font-size: 40px;
+    font-family: Impact, sans serif;
+    color: #FF0000;
+    margin-top: 5px;		   
+}
+
+.sT {
+    background-color: black;
+    padding: 10px;
+    margin: 10px;
+    margin-left: 50px;
+    width: 500px;
+    heigth: 50px;
+    color: #FF0000;
+    font-family: OCR A;
+    font-weight: bold;
+}
+
+.menu {
+    float: right;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+    color: #FF0000;
+    padding-right: 30px;
+}
+
+.login {
+    max-width: 35px;
+    max-height: 35px;
+    height: auto;
+    width: auto;
+    margin-top: 10px;
+}
+
+.chariot {
+    max-width: 38px;
+    max-height: 38px;
+    height: auto;
+    width: auto;
+    margin-top: 10px;
+}
+
+/*---------*/
+
+.image {
+    max-height: 99.9%;
+    max-width: 99.9%;
+}
+img.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto }
+
+/*---------*/
+
+body {
+    background-color: #909090;    
+}
+
+.feed {
+    width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+    max-height: 99%;
+    max-width: 99%;
+    background-color: #606060;
+    color: #000000;
+}
+
+/*-----------*/
+
+.article {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.article1 {
+    float: left;
+    margin-left: 50px;
+    height: 300px; 
+    width: 300px; 
+}
+
+.article2 {
+    float: center;
+    margin-left: 100px;
+    margin-right: 100px;
+    height: 300px; 
+    width: 300px;
+    
+}
+
+.article3 {
+    float: right;
+    margin-right: 50px;
+    height: 300px; 
+    width: 300px; 
+}
+
+/*--------*/
+
+
+.dropdown {
+    display: none;
+}
+
+.menuc {
+    max-width: 38px;
+    max-height: 38px;
+    height: auto;
+    width: auto;
+    margin-top: 5px;
+}
+
+.menul {
+    max-width: 35px;
+    max-height: 35px;
+    height: auto;
+    width: auto;
+    margin-top: 5px;
+}
+
+
+
+@media screen and (max-width: 1350px) {
+  .menu{
+    display: none;
+  }
+
+  .dropdown {
+    display: inline;
+    float: right;
+    margin: 9px;
+    
+  }
+
+  .sT {
+      width: 30%;
+  }
+
+
+  /********* START OF DROPDOWN ***********/
+
+  .dropbtn {
+    background-color: #FF0000;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    border: none;
+    float: right;
+  }
+
+  /* The container <div> - needed to position the dropdown content */
+  .dropdown {
+      position: relative;
+      display: inline-block;
+  }
+
+  /* Dropdown Content (Hidden by Default) */
+  .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #303030;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+  }
+
+  /* Links inside the dropdown */
+  .dropdown-content a {
+      color: #FF0000;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+  }
+
+  /* Change color of dropdown links on hover */
+  .dropdown-content a:hover {background-color: #ddd;}
+
+  /* Show the dropdown menu on hover */
+  .dropdown:hover .dropdown-content {display: block;}
+
+  /* Change the background color of the dropdown button when the dropdown content is shown */
+  .dropdown:hover .dropbtn {background-color: #FF0000;}
+}
+
+  /********* END OF DROPDOWN ***********/
+

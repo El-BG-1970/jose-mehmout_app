@@ -1,0 +1,11 @@
+.imagearticle {
+  float: left;
+  margin: 50px;
+
+}
+
+.infoarticle {
+  float: left;
+  margin-top: 300px;
+  align-items: center;
+}

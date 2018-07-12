@@ -1,3 +1,5 @@
+/* LES TRUCS EN GENERAL!!! */
+
 ul {
     background-color: #000000;
     max-height: 99%;
@@ -9,7 +11,8 @@ ul {
     font-size: 40px;
     font-family: Impact, sans serif;
     color: #FF0000;
-    margin-top: 5px;		   
+    margin-top: 0px;
+    margin-left: 10px;
 }
 
 .sT {
@@ -33,6 +36,14 @@ ul {
     padding-right: 30px;
 }
 
+.LSD {
+/*    max-height: 50px;
+    max-width: 50px; */
+    height: 55px;
+    width: 55px;
+    float: left;
+}
+
 .login {
     max-width: 35px;
     max-height: 35px;
@@ -51,59 +62,52 @@ ul {
 
 /*---------*/
 
-.image {
-    max-height: 99.9%;
-    max-width: 99.9%;
-}
-img.image {
-    display: block;
-    margin-left: auto;
-    margin-right: auto }
-
-/*---------*/
 
 body {
     background-color: #909090;    
 }
 
 .feed {
-    width: 1200px;
+    width: 1300px;
     margin-right: auto;
     margin-left: auto;
     max-height: 99%;
     max-width: 99%;
     background-color: #606060;
     color: #000000;
+    padding-bottom: 70%;
+}
+
+img.featured {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #606060;
+    heigth: 500px;
+    width: 500px;
 }
 
 /*-----------*/
 
-.article {
-    margin-top: 50px;
-    margin-bottom: 50px;
-}
-
-.article1 {
-    float: left;
-    margin-left: 50px;
-    height: 300px; 
-    width: 300px; 
-}
-
-.article2 {
-    float: center;
-    margin-left: 100px;
-    margin-right: 100px;
-    height: 300px; 
+.row1 {
     width: 300px;
-    
+    padding: 49px;
+    text-align: center;
+    display: table-cell;
 }
 
-.article3 {
-    float: right;
-    margin-right: 50px;
-    height: 300px; 
-    width: 300px; 
+.feed li {
+    list-style-type: none;
+    float: left;
+}
+
+
+.image2 {
+    max-width: 99%;
+    max-height: 99%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /*--------*/
@@ -195,3 +199,121 @@ body {
 
   /********* END OF DROPDOWN ***********/
 
+
+
+/* SPECIALEMENT POUR STUFF.HTML */
+
+.image {
+    max-height: 99.9%;
+    max-width: 99.9%;
+}
+img.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto
+}
+
+/*---------*/
+
+.slide {
+    height: 400px;
+    width: 400px;
+    margin: 0px;
+    padding: 0px;
+}
+
+.slideshow {
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    text-align: center;
+    overflow: hidden;
+    background-color: #000000;
+
+}
+
+.slideshow img{
+    vertical-align: middle;
+}
+
+
+/* SPECIALEMENT POUR CART.HTML */
+.cart {
+    margin-top: 50px
+}
+
+.cartimg {
+    float: left;
+    margin-left: 50px;
+    height: 300px; 
+    width: 300px;
+}
+
+.carttxt {
+    float: left;
+    padding: 50px;
+    margin-top: 80px;
+    margin-bottom: 120px;
+    margin-left: 50px;
+    font-size: 30px;
+}
+
+
+
+/* SPECIALEMENT POUR COMPTE.HTML */
+.compteimg {
+    max-height: 300px;
+    max-width: 300px;
+    height: auto;
+    width: auto;
+}
+
+img.compteimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding-bottom: 50%;
+}
+
+div.cf2 {
+    text-align: center;
+}
+
+.cf2 textarea {
+    resize: none;
+    overflow: hidden;
+    margin: 0 0 10px;
+}
+
+.cf2 input, .cf2 textarea {
+    padding: 5px;
+    border: none
+    border-bottom: 1px solid rgba(255, 255, 255, 1);
+    color: #FF0000;
+    margin: 0 0 5px;
+    width: 100%;
+    -webkit-transition: 0.5s ease all;
+    transition: 0.5s ease all;
+    background-color: #101010;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    font: normal normal normal 16px/1.4em proxima-n-w01-reg,sans-serif;
+    -webkit-appearance: none;
+    border-radius: 0;
+}
+
+.cf2fieldMessage {
+    min-height: 128px;
+}
+
+
+/* footer */
+h1 {
+    text-align: center;
+    font-size: 20px;
+    background-color: #000000;
+    color: #00FF00;
+    padding: 10px;
+}
